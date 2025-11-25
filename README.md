@@ -1,77 +1,103 @@
-AI Resume Analyzer
-AI Resume Analyzer is a web application built with React, Tailwind CSS, TypeScript, and Puter.js. It allows users to securely upload resumes, receive ATS scoring, and get AI-driven feedback for job applications. The application features client-side authentication, secure resume storage, and a clean, responsive UI built with reusable components.
+<div align="center">
+  <h1>AI Resume Analyzer</h1>
+  <img src="public/readme/hero.webp" alt="Project Banner" />
 
-Table of Contents
-Introduction
+  <div>
+    <img alt="React" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white" />
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img alt="Puter.js" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white" />
+  </div>
+  
+  <h3>Built and maintained by Rajvardhan Dhakar</h3>
+</div>
 
-Tech Stack
+---
 
-Features
+## 📋 Table of Contents
 
-Quick Start
+1. [Introduction](#introduction)  
+2. [Tech Stack](#tech-stack)  
+3. [Features](#features)  
+4. [Quick Start](#quick-start)  
+5. [Assets](#assets)  
+6. [Support & Contribution](#support--contribution)  
+7. [License](#license)  
 
-Assets
+---
 
-Introduction
-AI Resume Analyzer makes job applications easier by letting users upload resumes, get tailored ATS scores, and receive custom feedback based on their resume and job listing. All features are contained in a simple, modern interface with secure, client-side authentication and no backend setup required.
+<details>
+<summary>✨ Introduction</summary>
 
-Tech Stack
-React
+AI Resume Analyzer is a web application that enables users to upload resumes, receive ATS scoring, and get AI-driven feedback for job applications. It uses client-side authentication, cloud storage, and a responsive interface with modular components.
+</details>
 
-Tailwind CSS
+---
 
-TypeScript
+<details>
+<summary>⚙️ Tech Stack</summary>
 
-Puter.js (serverless auth, storage, AI)
+- React  
+- Tailwind CSS  
+- TypeScript  
+- Puter.js (serverless authentication, storage, AI)  
+- React Router v7  
+- Vite  
+- Zustand  
+</details>
 
-React Router v7
+---
 
-Vite
+<details>
+<summary>🔋 Features</summary>
 
-Zustand (state management)
+- Client-side authentication using Puter.js  
+- Secure uploading and cloud storage of resumes  
+- AI-powered matching and ATS scoring  
+- Responsive and modern UI  
+- Reusable component-based code architecture  
+- Modular TypeScript codebase  
+</details>
 
-Features
-Client-side authentication using Puter.js
+---
 
-Upload and securely store your resumes in the cloud
+<details>
+<summary>🤸 Quick Start</summary>
 
-AI-powered matching and ATS scoring for your resume
+**Prerequisites**
 
-Clean, reusable component-based UI for easy maintenance
+- Node.js and npm  
+- Git
 
-Fully responsive design, compatible with all devices
-
-Modular TypeScript codebase for reliability and scalability
-
-Quick Start
-Prerequisites
-Make sure you have the following installed on your machine:
-
-Git
-
-Node.js
-
-npm (Node Package Manager)
-
-Installation
-Clone the repository and install dependencies:
-
-bash
+**Installation**
 git clone https://github.com/RajvardhanDhakar/AI-Resume-Analyser.git
 cd AI-Resume-Analyser
 npm install
 npm run dev
-Visit http://localhost:5173 in your browser to view and use the application locally.
 
-Assets
-All images, icons, and design elements used in this app are part of this repository.
+Open [http://localhost:5173](http://localhost:5173) in your web browser to use the app locally.
+</details>
 
-Support & Contribution
-If you encounter any issues, have suggestions, or would like to contribute:
+---
 
-Open an issue on this repository
+<details>
+<summary>🔗 Assets</summary>
 
-Submit your improvements or bugfixes via pull requests
+All images, icons, and components are part of this repository. Add your own screenshots here for more visual details.
+</details>
 
-License
+---
+
+<details>
+<summary>💬 Support & Contribution</summary>
+
+If you find a bug or have suggestions, feel free to open issues. Contributions are welcome—submit a pull request!
+</details>
+
+---
+
+## 📝 License
+
 This project is released under the MIT License.
+
+
